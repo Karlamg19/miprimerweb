@@ -1,0 +1,41 @@
+/*para paletas de colores podemos utilizar paletasdecolores.com.mx o podemos usar gradient css*/body {
+    background: rgb(255,242,175);
+    background: linear-gradient(90deg, rgba(255,242,175,1) 50%, rgba(255,102,0,1) 100%);
+    /*para descargar tipos de letras se usa fonts.google*/
+    font-family: "Sour Gummy", sans-serif;
+    font-size: larger;
+}
+/*para darle tamaño a las imagenes se usa height para lo alto y width para el ancho*/
+/*para redondear las imagenes se usa border-radius*/
+.ranmatodos{
+    width: 750px;
+    border-radius: 30px;
+    border: solid;
+    border-color: brown;
+}
+.ranmasolo{
+    width: 750px;
+    border-radius: 30px;
+    border: solid;
+    border-color: brown;
+}
+.cosas{
+    background-image: url(https://m.supergeek.cl/noticias/site/artic/20240926/imag/foto_0000000220240926140625/shampoo_ranma.jpg);
+    font-size: 20px;
+    color: brown;
+    background-color: rgba(0, 0, 0, 0.1);      
+    background-blend-mode: multiply;
+}
+.indice{
+    background-image: url(https://otakuusamagazine.com/wp-content/uploads/2024/09/ranma-creditless-op.jpg);
+    font-size: 35px;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.imagenes{
+    text-align: center;
+}
